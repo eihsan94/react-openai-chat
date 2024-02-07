@@ -16,7 +16,7 @@ app.use(cookieParser());
 
 app.use("/api/v1", routeV1);
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5002;
 const server = http.createServer(app);
 
 mongoose.set("strictQuery", false);
